@@ -8,7 +8,7 @@
 
     <ImageView
         android:layout_width="fill_parent"
-        android:layout_height="330dp"
+        android:layout_height="320dp"
         android:scaleType="centerCrop"
         android:id="@+id/imageView"
         android:src="@drawable/header_bg"
@@ -43,9 +43,10 @@
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/float_button"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginTop="8dp"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginBottom="16dp"
+            android:onClick="OnClick"
             fab:fab_icon="@drawable/login"
             fab:fab_colorNormal="@color/accent"
             fab:fab_colorPressed="@color/accent" />
