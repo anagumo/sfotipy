@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Outline;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,7 +27,9 @@ public class MainActivity extends ActionBarActivity {
         outline.setOval(0, 0, size, size);
         ImageButton imageButton = (ImageButton) findViewById(R.id.float_bottom);
         imageButton.setOutline(outline);*/
-        
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
+        setSupportActionBar(toolbar);
     }
 
     public void OnClick(View view){
