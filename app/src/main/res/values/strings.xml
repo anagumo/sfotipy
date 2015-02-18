@@ -6,6 +6,5 @@
     <string name="welcome_text">La música que te gusta donde sea</string>
     <string name="welcome_text_footer">Se parte del proyecto en mejorando.la/sfotipy</string>
     <string name="title_activity_my_music">MyMusic</string>
-
-    <string name="hello_world">Hello world!</string>
+    
 </resources>
