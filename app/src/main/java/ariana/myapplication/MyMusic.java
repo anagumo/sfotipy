@@ -13,7 +13,7 @@ public class MyMusic extends ActionBarActivity {
     ViewPager viewPager;
     ViewPagerAdapter viewPagerAdapter;
     SlidingTabLayout slidingTabLayout;
-    CharSequence Titles[]={"Amigos","Destacados", "Perfil"};
+    CharSequence Titles[]={"Destacados","Amigos", "Perfil"};
     int Numboftabs = 3;
     
     @Override

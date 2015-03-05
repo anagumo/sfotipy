@@ -10,12 +10,12 @@
     </style>
 
     <!-- Sfotipy Color palette. -->
-    <color name="primary_dark">#880e4f</color>
-    <color name="primary">#ad1457</color>
-    <color name="accent">#18ffff</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary">#3F51B5</color>
+    <color name="accent">#FF4081</color>
     <color name="text_color">#fefefe</color>
     <color name="background_main">#000000</color>
-    <color name="tabsScrollColor">#18ffff</color>
+    <color name="tabsScrollColor">#FF4081</color>
     <color name="textColorPrimary">#fefefe</color>
 
 </resources>

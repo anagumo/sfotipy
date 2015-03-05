@@ -32,11 +32,11 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position){
             case 0:
-                AmigosFragment amigosFragment = new AmigosFragment();
-                return amigosFragment;
-            case 1:
                 DestacadosFragment destacadosFragment = new DestacadosFragment();
                 return destacadosFragment;
+            case 1:
+                AmigosFragment amigosFragment = new AmigosFragment();
+                return amigosFragment;
             default:
                 ProfileFragment profileFragment = new ProfileFragment();
                 return profileFragment;
