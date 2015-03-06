@@ -54,7 +54,7 @@
             android:onClick="OnClick"
             fab:fab_icon="@drawable/login"
             fab:fab_colorNormal="@color/accent"
-            fab:fab_colorPressed="@color/accent" />
+            fab:fab_colorPressed="@color/fab_colorPressed" />
     </LinearLayout>
 
 </RelativeLayout>

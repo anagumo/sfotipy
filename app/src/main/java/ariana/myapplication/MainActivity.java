@@ -34,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void OnClick(View view){
 
-        Toast.makeText(this, "¡Funciona!", Toast.LENGTH_LONG).show();
+        // Toast.makeText(this, "¡Funciona!", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, MyMusic.class);
         startActivity(intent);
     }

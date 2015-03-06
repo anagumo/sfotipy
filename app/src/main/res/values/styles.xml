@@ -17,5 +17,6 @@
     <color name="background_main">#000000</color>
     <color name="tabsScrollColor">#FF4081</color>
     <color name="textColorPrimary">#fefefe</color>
+    <color name="fab_colorPressed">#C2185B</color>
 
 </resources>
