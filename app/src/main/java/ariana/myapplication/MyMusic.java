@@ -1,8 +1,10 @@
 package ariana.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
+import android.view.View;
 
 import ariana.myapplication.adapters.ViewPagerAdapter;
 import ariana.myapplication.iosched.SlidingTabLayout;
@@ -43,6 +45,13 @@ public class MyMusic extends ActionBarActivity {
         });
 
         slidingTabLayout.setViewPager(viewPager);
+    }
+
+    public void OnClick(View view){
+
+        // Toast.makeText(this, "¡Funciona!", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 }
