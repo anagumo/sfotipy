@@ -1,6 +1,6 @@
 package ariana.myapplication.adapters;
 
-import android.content.Context;
+import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -54,9 +54,14 @@ public class AmigosAdapter extends RecyclerView.Adapter<AmigosAdapter.ViewHolder
        public ViewHolder(View itemView) {
            super(itemView);
 
+           Typeface roboto = Typeface.createFromAsset(itemView.getContext().getAssets(), "fonts/Roboto-Regular.ttf");
            amigoNombre = (TextView) itemView.findViewById(R.id.nombre_amigo);
            amigoTwitter = (TextView) itemView.findViewById(R.id.twitter_amigo);
            ultimaCancion = (TextView) itemView.findViewById(R.id.ultimcancion_amigo);
+
+           this.amigoNombre.setTypeface(roboto);
+           this.amigoTwitter.setTypeface(roboto);
+           this.ultimaCancion.setTypeface(roboto);
        }
    }
 }
